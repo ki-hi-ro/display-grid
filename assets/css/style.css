@@ -2,4 +2,13 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  margin: 10px;
+}
+
+.grid__child {
+  border: 1px solid #cbcbcb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
 }
