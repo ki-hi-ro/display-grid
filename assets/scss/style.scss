@@ -1,13 +1,7 @@
-// 位置調整
-.ellipsis-text {
-  margin: 100px auto;
-}
-
-.ellipsis-text {
-  width: 200px;
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
+.grid {
+  &__parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
 }
