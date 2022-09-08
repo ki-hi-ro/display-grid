@@ -1,13 +1,1 @@
-.grid__parent {
-  display: grid;
-  grid-template-columns: 100px 100px 100px;
-  grid-template-rows: 100px 100px;
-  margin: 10px;
-}
-
-.grid__child {
-  border: 1px solid #cbcbcb;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+/* No CSS */
